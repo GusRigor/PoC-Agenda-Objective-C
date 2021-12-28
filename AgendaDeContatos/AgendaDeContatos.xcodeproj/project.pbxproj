@@ -15,6 +15,7 @@
 		1C681311277A22650007338F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C68130F277A22650007338F /* LaunchScreen.storyboard */; };
 		1C681314277A22650007338F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C681313277A22650007338F /* main.m */; };
 		1C68131C277A32CE0007338F /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C68131B277A32CE0007338F /* Contato.m */; };
+		1C88DCF0277B997B007FBAC2 /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C88DCEF277B997B007FBAC2 /* ListaContatosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		1C681313277A22650007338F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C68131A277A32CE0007338F /* Contato.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
 		1C68131B277A32CE0007338F /* Contato.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		1C88DCEE277B997B007FBAC2 /* ListaContatosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListaContatosViewController.h; sourceTree = "<group>"; };
+		1C88DCEF277B997B007FBAC2 /* ListaContatosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				1C681305277A22630007338F /* SceneDelegate.m */,
 				1C681307277A22630007338F /* ViewController.h */,
 				1C681308277A22630007338F /* ViewController.m */,
+				1C88DCEE277B997B007FBAC2 /* ListaContatosViewController.h */,
+				1C88DCEF277B997B007FBAC2 /* ListaContatosViewController.m */,
 				1C68131A277A32CE0007338F /* Contato.h */,
 				1C68131B277A32CE0007338F /* Contato.m */,
 				1C68130A277A22630007338F /* Main.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C68131C277A32CE0007338F /* Contato.m in Sources */,
+				1C88DCF0277B997B007FBAC2 /* ListaContatosViewController.m in Sources */,
 				1C681309277A22630007338F /* ViewController.m in Sources */,
 				1C681303277A22630007338F /* AppDelegate.m in Sources */,
 				1C681314277A22650007338F /* main.m in Sources */,
