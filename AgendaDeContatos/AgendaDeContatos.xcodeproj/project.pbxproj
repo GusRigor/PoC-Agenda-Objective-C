@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C06C6B72784E84E001B6564 /* ContatoDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06C6B62784E84E001B6564 /* ContatoDao.m */; };
 		1C681303277A22630007338F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C681302277A22630007338F /* AppDelegate.m */; };
 		1C681306277A22630007338F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C681305277A22630007338F /* SceneDelegate.m */; };
 		1C681309277A22630007338F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C681308277A22630007338F /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C06C6B52784E84E001B6564 /* ContatoDao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContatoDao.h; sourceTree = "<group>"; };
+		1C06C6B62784E84E001B6564 /* ContatoDao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContatoDao.m; sourceTree = "<group>"; };
 		1C6812FE277A22630007338F /* AgendaDeContatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaDeContatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C681301277A22630007338F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C681302277A22630007338F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				1C681308277A22630007338F /* ViewController.m */,
 				1C88DCEE277B997B007FBAC2 /* ListaContatosViewController.h */,
 				1C88DCEF277B997B007FBAC2 /* ListaContatosViewController.m */,
+				1C06C6B52784E84E001B6564 /* ContatoDao.h */,
+				1C06C6B62784E84E001B6564 /* ContatoDao.m */,
 				1C68131A277A32CE0007338F /* Contato.h */,
 				1C68131B277A32CE0007338F /* Contato.m */,
 				1C68130A277A22630007338F /* Main.storyboard */,
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C06C6B72784E84E001B6564 /* ContatoDao.m in Sources */,
 				1C68131C277A32CE0007338F /* Contato.m in Sources */,
 				1C88DCF0277B997B007FBAC2 /* ListaContatosViewController.m in Sources */,
 				1C681309277A22630007338F /* ViewController.m in Sources */,

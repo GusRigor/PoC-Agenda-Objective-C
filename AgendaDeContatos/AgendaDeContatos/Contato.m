@@ -9,14 +9,9 @@
 
 @implementation Contato
 
-NSString *nome;
-
--(void) setNome: (NSString *)novoNome {
-    nome = novoNome;
-}
-
--(NSString *) nome{
-    return nome;
+- (NSString *)description{
+    NSString *dados = [[NSString alloc] initWithFormat: @"Nome: %@ E-mail: %@ Telefone: %@ Endereco: %@ Site: %@", self.nome, self.email, self.telefone, self.endereco, self.site];
+    return dados;
 }
 
 @end
